@@ -1,11 +1,38 @@
-a = 'a'
-b = 'b'
-c = 'c'
-d = 'd'
-e = 'e'
+# #a = 'a'
+# #b = 'b'
+# #c = 'c'
+# #d = 'd'
+# #e = 'e'
 
-a_list = [a, b, c, d, e]
-print(a_list[0:10])
+# #a_list = [a, b, c, d, e]
+# #print(a_list[0:10])
 
-a_list.reverse()
-print(a_list)
+# #a_list.reverse()
+# #print(a_list)
+
+
+# list1 = [1, 2, 3]
+# list2 = [4, 5, 6]
+
+
+# list3 = list1 + list2
+# print(list3)  
+
+# fruit_list = ['banana', 'apple', 'orange', 'grape']
+# fruit_list.sort()
+
+# print(fruit_list)
+
+# number_list = [4, 2, 9, 6, 1]
+# number_list.sort(reverse=True)
+# print(number_list)
+
+# original_dict = {'a': 1, 'b': 2, 'c': 3}
+# copied_dict = original_dict.copy()
+
+# copied_dict['a'] = 10
+# copied_dict['d'] = 4
+
+# print(original_dict)  
+# print(copied_dict)    
+
