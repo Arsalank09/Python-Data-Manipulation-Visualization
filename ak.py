@@ -36,3 +36,26 @@
 # print(original_dict)  
 # print(copied_dict)    
 
+# line= '*'
+# max_length= 11
+
+# while len(line) <=max_length:
+#     print(line)
+#     line += '*'
+
+# while len(line)>0:
+#     line = line[:-1]
+#     print(line)
+
+
+def print_diamond(n):
+    for i in range(n):
+        print(' ' * (n - i - 1) + '*' * (2 * i + 1))
+    for i in range(n-2, -1, -1):
+        print(' ' * (n - i - 1) + '*' * (2 * i + 1))
+
+print_diamond(5)
+
+
+
+
